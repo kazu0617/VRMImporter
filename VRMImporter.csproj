@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+		<Reference Include="BaseX">
+      <HintPath>$(GameRefsPath)BaseX.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeX">
+      <HintPath>$(GameRefsPath)CodeX.dll</HintPath>
+    </Reference>
+    <Reference Include="FrooxEngine">
+      <HintPath>$(GameRefsPath)FrooxEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
